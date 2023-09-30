@@ -27,6 +27,6 @@ public class PlayerControllerX : MonoBehaviour
 
         // tilt the plane up/down based on up/down arrow keys
         //Here I added the vertical input variable, so that we get the option to tilt plane up and down at command of the user
-        transform.Rotate(Vector3.right * rotationSpeed * Time.deltaTime * verticalInput);
+        transform.Rotate(Vector3.left * rotationSpeed * Time.deltaTime * verticalInput);
     }
 }
